@@ -22,5 +22,11 @@ get '/details' do
 end
 
 post '/details' do
-"Hello #{params['user']}"
+erb:age, :locals => {:name => params['user']}
+end
+
+
+
+post '/age' do
+ "Wow, in ten years you will be #{params[:input].to_i + 10}!"
 end
