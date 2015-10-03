@@ -1,4 +1,4 @@
 require 'sinatra'
-get '/' do
+get '/Nemacolin' do
 'It is a rainy day today'
 end
