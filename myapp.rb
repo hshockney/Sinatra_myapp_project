@@ -16,3 +16,7 @@ end
 get '/multiply/:name/:int1/:int2' do |name,val1, val2|
 "Hello #{params['name']}, These values = #{val1.to_i * val2.to_i}"
 end
+
+get '/details' do
+	erb:username
+end
