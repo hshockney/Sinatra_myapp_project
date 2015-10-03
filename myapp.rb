@@ -20,3 +20,7 @@ end
 get '/details' do
 	erb:username
 end
+
+post '/details' do
+"Hello #{params['user']}"
+end
